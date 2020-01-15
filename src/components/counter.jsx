@@ -10,6 +10,7 @@ class Counter extends Component {
     console.log("prevState", prevState);
     if (prevProps.counter.value !== this.props.counter.value) {
       // Ajax call and get new data from the server
+    }
   }
 
   componentWillUnmount() {
