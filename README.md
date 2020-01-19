@@ -1,3 +1,18 @@
+#React勉強用App
+
+##App 使用
+　ECサイトのカート機能を再現する。
+  いくつかの商品が並べられ、追加すると各商品の個数がカウントアップするとともに、Navbar上に全商品の個数の総計が表示される。
+  Resetボタンで全個数を0に初期化する。
+ 
+##勉強メモ
+ 1. Reactライブラリの基本的な構成を学ぶ
+    1-1. 各コンポーネント間でデータを共有するには？　->　tag内に変数埋め込んでprop経由で親->子にデータを送信できる。(Angularとだいたい同じ?)
+    1-2. render関数の理解 -> Angularと違い、基本render関数を呼ばないと描画しない？この辺はAngularの方が融通が聞いてる気がする。
+
+
+以下自動生成文
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
